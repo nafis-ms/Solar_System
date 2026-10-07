@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solar System | A Journey Outward</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;600&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+<canvas id="stars" aria-hidden="true"></canvas>
+
+<div id="intro">
+  <h1>Solar System</h1>
+  <button id="begin">Begin the journey</button>
+</div>
+
+<header id="hero">
+  <div class="hero-text">
+    <h2>Every world has a different.</h2>
+    <p>Scroll or press the down arrow to travel from Planets to Planets.</p>
+  </div>
+</header>
+
+<main id="journey">
+  <div id="chapters"></div>
+</main>
+
+<nav id="dots" aria-label="Planets"></nav>
+<footer><p>Built by Musbitul Haque. Turning imagination into reality.</p></footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
